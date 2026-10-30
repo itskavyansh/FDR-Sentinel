@@ -118,7 +118,7 @@ export default function DemoGuide() {
             <div className="flex items-center gap-2">
               <Compass size={16} className="text-amber-400" />
               <span className="font-bold text-xs uppercase tracking-wider text-amber-300">
-                8-Step Demo Script Guide
+                8-Step Demo
               </span>
               <span className="bg-white/20 text-blue-100 text-[10px] px-1.5 py-0.2 rounded-full font-bold">
                 {completedSteps.length}/8 Done
