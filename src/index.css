@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --navy: #0b2e4f;
+    --blue: #0072c6;
+    --blue-light: #e6f2ff;
+    --red: #c0392b;
+    --amber: #d97706;
+    --green: #16a34a;
+    --surface: #f0f4f8;
+  }
+  body {
+    @apply bg-[#f0f4f8] text-gray-800;
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+  }
+}
